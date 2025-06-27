@@ -4,7 +4,7 @@ So apparently Calgary removed fluoride from their water since 2011 but they’re
 So I was thinking like an Interactive Webpage/ Study of fluoride on teeth in Alberta 
 
 Software: 
-Code the webpage using html, css, js and react. add interactive elements. Maybe add a mini game component that can let a user add fluoride to the teeth see effects. Make it look interesting to read and simple for humans. When uploading the components below, let them still be interactive to the user (for example , the user can play around with the bar graph about the fluoride data, instead of it being a screenshot.  potentially host the page.
+Code the webpage using html, css, js and react. add interactive elements. Maybe add an interactive component that can let a user add fluoride to the teeth see effects. Make it look interesting to read and simple for humans. When uploading the components below, let them still be interactive to the user (for example , the user can play around with the bar graph about the fluoride data, instead of it being a screenshot.  potentially host the page.
 
 Architecture & Mechanical: 
 You can start with a 2D sketch for brainstorming but then transform it into a 3D design of human teeth into 3 parts: with too little fluoride, normal fluoride, and too much fluoride. You can use autoCAD software or rhino or whatever worked best in your design classes. To sketch the symptoms you can grab them from Alberta health or just any health page/ google. Then the final 3D designs will be published on the webpage.
