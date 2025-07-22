@@ -1,30 +1,115 @@
-body, html, #root {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif;
-  scroll-behavior: smooth;
-  background-color: #f5f5f5;
-}
-
-section {
-  padding: 60px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
 .App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: purple;
+  color: #fff;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.Header { text-align: center;
+  color: pink; }
+
+.names{
+    text-align: center;
+    color: pink;
+
+}
+.intro{
+    font-size: 30px;
+}
+.Teeth {
   display: flex;
-  flex-direction: column;
-}
-#visualizations {
-  padding: 60px 20px;
-  background-color: #f0f8ff; 
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.graphs, .teeth-models {
-  margin-top: 40px;
+.Teeth .model-viewer {
+  position: relative;
+  width: 600px;
+  height: 500px; 
+  margin: 0 auto;
+  background: transparent;
 }
 
-h3 {
-  margin-bottom: 10px;
+.Teeth canvas {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+  display: block;
+}
+
+.model-viewer .nav-arrow {
+  position: absolute;
+  top: 50%;
+  width: 120px;
+  height: 120px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.model-viewer .nav-arrow.left {
+  left: 0;
+  transform: translate(-50%, -50%);
+  background: url('./assets/leftarrow.png') center/contain no-repeat;
+}
+
+.model-viewer .nav-arrow.right {
+  right: 0;
+  transform: translate(50%, -50%);
+  background: url('./assets/rightarrow.png') center/contain no-repeat;
+}
+
+.model-viewer .nav-arrow.left:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+  filter: brightness(1.1);
+}
+
+.model-viewer .nav-arrow.right:hover {
+  transform: translate(50%, -50%) scale(1.05);
+  filter: brightness(1.1);
+}
+
+.Teeth .caption {
+  position: absolute;
+  bottom: -1.5rem;
+  text-align: center;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.Visualizations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.VizExample {
+  background: #fff;
+  color: #000;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.VizExample .chart {
+  height: 150px;
+  background: #ddd;
+  margin-bottom: 1rem;
+}
+
+.VizExample .caption { font-weight: bold; margin-bottom: 0.5rem; }
+.VizExample .explanation { font-size: 0.9rem; }
+
+.Footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000;
 }
