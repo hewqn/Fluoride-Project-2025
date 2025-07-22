@@ -4,8 +4,7 @@ npm install three
 npm install @react-three/fiber
 npm install @react-three/drei
 npm install @react-spring/three
--
--
+
 So apparently Calgary removed fluoride from their water since 2011 but they’re gonna put it back in June , but other cities in Alberta kept it since. So maybe we could see if we could do research on how that effected the average Calgarians teeth versus to those in like Edmonton for example and also any data that’s available before 2011 when Calgary did have fluoride. 
 
 So I was thinking like an Interactive Webpage/ Study of fluoride on teeth in Alberta 
