@@ -1,0 +1,92 @@
+html, body, #root {
+  height: 100%;
+  margin: 0; 
+}
+
+body {
+  font-family: 'SuperAdorable';
+  margin: 0;
+  background-color: purple;
+  color: black;
+}
+
+h1{
+    text-align: center;
+    color: pink;
+}
+.names{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    filter: drop-shadow(0 6px 6px rgba(0,0,0,.90));
+}
+.intro{
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 0.9px orange;
+    filter: drop-shadow(0 6px 6px rgba(0,0,0,.90));
+}
+
+.pie-chart {
+  
+  width: 500px; 
+  height: auto;
+  display: block; 
+  margin-left: auto; 
+  margin-right: 0;
+  margin-top: 20px;  
+  margin-bottom: 20px; 
+
+  border: 1px solid #ccc; 
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2); 
+}
+.content-section1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; 
+  gap: 30px; 
+  width: 90%;
+  margin: 30px auto; 
+  
+}
+.explanation1{
+  flex: 1; 
+  font-size: 30px;
+  line-height: 1.6;
+  color:white;
+  padding-right: 15px; 
+  text-align: justify; 
+  -webkit-text-stroke: 1.0px orange;
+  filter: drop-shadow(0 6px 6px rgba(0,0,0,.90));
+}
+.content-section2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; 
+  gap: 30px; 
+  width: 90%;
+  margin: 30px auto; 
+}
+.explanation2{
+  flex: 1; 
+  font-size: 30px;
+  line-height: 1.6;
+  color: white;
+  padding-right: 15px; 
+  text-align: justify; 
+  -webkit-text-stroke: 1.0px orange;
+  filter: drop-shadow(0 6px 6px rgba(0,0,0,.90));
+}
+.bar-chart{
+  width: 500px; 
+  height: auto;
+  display: block; 
+  margin-left: auto; 
+  margin-right: 0;
+  margin-top: 20px;  
+  margin-bottom: 20px; 
+
+  border: 1px solid #ccc; 
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2); 
+}
+
