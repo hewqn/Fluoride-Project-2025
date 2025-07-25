@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'SuperAdorable';
+  src: url('./assets/fonts/SuperAdorable.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .App {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'SuperAdorable';
   background: purple;
   color: #fff;
   min-height: 100vh;
@@ -7,20 +15,18 @@
   grid-template-rows: auto auto 1fr auto;
   gap: 2rem;
   padding: 2rem;
-  font-family: sans-serif;
+}
+
+.title{
+  font-size: 100px;  
+  color: orange;           
+  -webkit-text-stroke: 4px white;
+  filter: drop-shadow(0 6px 6px rgba(0,0,0,.90));
 }
 
 .Header { text-align: center;
   color: pink; }
 
-.names{
-    text-align: center;
-    color: pink;
-
-}
-.intro{
-    font-size: 30px;
-}
 .Teeth {
   display: flex;
   align-items: center;
@@ -59,12 +65,14 @@
   left: 0;
   transform: translate(-50%, -50%);
   background: url('./assets/leftarrow.png') center/contain no-repeat;
+  filter: drop-shadow(0 6px 6px rgba(0,0,0,.90))
 }
 
 .model-viewer .nav-arrow.right {
   right: 0;
   transform: translate(50%, -50%);
   background: url('./assets/rightarrow.png') center/contain no-repeat;
+  filter: drop-shadow(0 6px 6px rgba(0,0,0,.90))
 }
 
 .model-viewer .nav-arrow.left:hover {
@@ -79,11 +87,13 @@
 
 .Teeth .caption {
   position: absolute;
-  bottom: -1.5rem;
+  bottom: -4rem;
   text-align: center;
   width: 100%;
-  font-size: 0.9rem;
-  color: #000;
+  font-size: 50px;
+  color:orange;
+  -webkit-text-stroke: 2.5px white;
+  filter: drop-shadow(0 6px 6px rgba(0,0,0,.90))
 }
 
 .Visualizations {
@@ -110,6 +120,8 @@
 
 .Footer {
   text-align: center;
-  font-size: 0.9rem;
-  color: #000;
+  font-size: 30px;
+  color: white;
+  -webkit-text-stroke: 0.9px orange;
+  filter: drop-shadow(0 6px 6px rgba(0,0,0,.90));
 }
