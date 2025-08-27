@@ -1,20 +1,61 @@
-# Summer-Project-2025
-NOTE for frontend: need to paste the following in your terminal with directory set to your project: 
-npm install three,npm install @react-three/fiber, npm install @react-three/drei, npm install @react-spring/three
+# Project Overview:
 
-So apparently Calgary removed fluoride from their water since 2011 but they’re gonna put it back in June , but other cities in Alberta kept it since. So maybe we could see if we could do research on how that effected the average Calgarians teeth versus to those in like Edmonton for example and also any data that’s available before 2011 when Calgary did have fluoride. 
+This project explores the impact of fluoride levels in Alberta’s water supply on dental health, with a focus on Calgary vs. Edmonton.
+Calgary removed fluoride from its water in 2011, and reintroduced it in June 2025.
+Other cities in Alberta (e.g., Edmonton) continued fluoridation during this period.
+By comparing available chemical water data and dental health outcomes before and after 2011, we aim to visualize how fluoride levels may have affected oral health.
+The final deliverable will be an interactive webpage that combines:
+Data visualizations (bar charts, pie charts, interactive graphs)
+3D models of teeth showing different fluoride exposure levels (too little, normal, too much)
+Explanations and conclusions from our research
 
-So I was thinking like an Interactive Webpage/ Study of fluoride on teeth in Alberta 
+# Goals:
+Create a user-friendly, visually engaging, and informative platform for exploring fluoride’s impact on dental health.
+Bridge data analysis, 3D modeling, and web development into one cohesive project.
+Provide clear conclusions and insights backed by real data.
 
-Software: 
-Code the webpage using html, css, js and react. add interactive elements. Maybe add an interactive component that can let a user add fluoride to the teeth see effects. Make it look interesting to read and simple for humans. When uploading the components below, let them still be interactive to the user (for example , the user can play around with the bar graph about the fluoride data, instead of it being a screenshot.  potentially host the page.
+# Frontend Setup:
+The frontend is built with React and includes 3D/interactive components.
+To set up your development environment:
+**Ensure you are in your project directory before running**:
+npm install three
+npm install @react-three/fiber
+npm install @react-three/drei
+npm install @react-spring/three
 
-Architecture & Mechanical: 
-You can start with a 2D sketch for brainstorming but then transform it into a 3D design of human teeth into 3 parts: with too little fluoride, normal fluoride, and too much fluoride. You can use autoCAD software or rhino or whatever worked best in your design classes. To sketch the symptoms you can grab them from Alberta health or just any health page/ google. Then the final 3D designs will be published on the webpage.
+# Project Components:
 
-Chemical:  
-Find data analysis of fluoride in water before 2011 in Calgary and after 2011. And also I’m not sure if this exists but maybe dental visits related to fluoride before 2011 in Calgary, and after 2011. This data can be research done by other uni students in the past, official water analysis that the city releases or anything similar. If finding data before 2011 is too hard, you can use recent data in Calgary, so the data that includes no fluoride, and then compare it to recent data in other cities like Edmonton etc. and also find data on dental visits related to fluoride during the same year , if exists.
-Take this data and fill an excel sheet with it with cells that separate the city , the chemical name, the amount ,the unit, the year, etc. 
-then from this excel sheet plug it into power bi for visualization. You can make bar graphs and pie charts . So then this will also be added to the webpage. 
+**Software (Frontend Development):**
+Build the webpage using HTML, CSS, JavaScript, and React.
+Add interactive graphs (users can explore fluoride data instead of static screenshots).
+Include a teeth simulation component where users can visualize the effects of fluoride.
+Website hosting.
 
-All of us: writing documentation in github repo and on the webpage to like explain the elements on there. Also to write our conclusions after doing the research. 
+**Architecture & Mechanical (3D Modeling):**
+Start with 2D sketches to brainstorm designs.
+Develop 3D models of human teeth in three conditions:
+Too little fluoride
+Normal fluoride
+Too much fluoride
+Use CAD software (e.g., AutoCAD, Rhino, Blender) to design models.
+Incorporate real dental symptoms from Alberta Health or reliable health sources.
+Publish the final 3D designs directly on the webpage in glb format.
+
+**Chemical (Data Collection & Analysis):**
+Collect data on fluoride levels in Calgary’s water supply before and after 2011.
+Compare with other Albertan areas.
+Unfortunately we werent able to gather appropriate data on dental visits or oral health statistics.
+Organize the dataset in Excel with fields such as:
+Area
+Flouride amount
+Year
+Source
+Use Power BI to create bar charts, pie charts, and interactive dashboards.
+Embed these visuals into the webpage.
+
+**Documentation & Deliverables:**
+All team members will contribute to documentation:
+Write clear explanations of each webpage component.
+Provide background context on fluoride in Alberta.
+Summarize conclusions from the collected data and visualizations.
+Maintain GitHub documentation for transparency and reproducibility.
